@@ -1,4 +1,4 @@
-!INCLUDE "/html/warning-dev.html"
+!INCLUDE "../html/warning-dev.html"
 ## 第IV部
 # 世界の歴史と文明
 ## 8 中央大陸の各国家

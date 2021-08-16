@@ -1,4 +1,4 @@
-!INCLUDE "/html/warning-dev.html"
+!INCLUDE "../html/warning-dev.html"
 ## 第 II 部
 # 世界の形
 ## 1 惑星

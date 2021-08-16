@@ -1,4 +1,4 @@
-!INCLUDE "/html/warning-dev.html"
+!INCLUDE "../html/warning-dev.html"
 ## 第V部
 # 帝国
 ## 13 通貨

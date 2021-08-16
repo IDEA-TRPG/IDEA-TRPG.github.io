@@ -1,4 +1,4 @@
-!INCLUDE "/html/warning-dev.html"
+!INCLUDE "../html/warning-dev.html"
 ## 第IV部
 # 世界の歴史と文明
 ## 7 各大陸の文明と国家
