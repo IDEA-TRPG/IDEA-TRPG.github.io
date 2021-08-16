@@ -1,3 +1,4 @@
+!INCLUDE "/html/warning-dev.html"
 ## 第 III 部
 # 世界の理
 ## 5 科学技術

@@ -1,3 +1,4 @@
+!INCLUDE "/html/warning-dev.html"
 ## 第VI部
 # ギルドと冒険者
 ## 17 ギルド

@@ -1,3 +1,4 @@
+!INCLUDE "/html/warning-dev.html"
 ## 第V部
 # 帝国
 ## 10 歴史

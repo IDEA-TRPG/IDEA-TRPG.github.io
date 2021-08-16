@@ -1,3 +1,4 @@
+!INCLUDE "/html/warning-dev.html"
 ## 第 I 部
 # ようこそIDEA-TRPGの世界へ！
 IDEA-TRPG—Immortal Dominion and Ephemeral Adventure TRPG—は架空の世界の帝国を舞台にとしたTRPGであり、プレイヤーは冒険者として様々な依頼をこなすことになります。
