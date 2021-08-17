@@ -21,5 +21,10 @@
   "description": "",
   "devDependencies": {
     "honkit": "^3.6.20"
+  },
+  "dependencies": {
+    "gitbook-plugin-ga": "^2.0.0",
+    "gitbook-plugin-include-html": "^0.2.0",
+    "honkit-plugin-google-analytics": "^1.0.0"
   }
 }
