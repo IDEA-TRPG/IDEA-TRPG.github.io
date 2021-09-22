@@ -1,5 +1,5 @@
 {
-  "name": "idea-trpg.github.io",
+  "name": "Worldview",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IDEA-TRPG/IDEA-TRPG.github.io/issues"
+    "url": "https://github.com/IDEA-TRPG/Worldview/issues"
   },
-  "homepage": "https://github.com/IDEA-TRPG/IDEA-TRPG.github.io#readme",
+  "homepage": "https://github.com/IDEA-TRPG/Worldview#readme",
   "keywords": [],
   "description": "",
   "devDependencies": {
@@ -25,6 +25,7 @@
   "dependencies": {
     "gitbook-plugin-ga": "^2.0.0",
     "gitbook-plugin-include-html": "^0.2.0",
+    "gitbook-plugin-summary": "^1.1.0",
     "honkit-plugin-google-analytics": "^1.0.0"
   }
 }
