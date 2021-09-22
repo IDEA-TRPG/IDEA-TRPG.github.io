@@ -22,9 +22,7 @@ jobs:
     - name: Install dependencies
       run: yarn --frozen-lockfile
     - name: Build Honkit
-      run: |
-        yarn start
-        yarn build
+      run: yarn build
     - name: cname
       run: |
         echo "docs.idea-trpg.com" >  docs/CNAME
