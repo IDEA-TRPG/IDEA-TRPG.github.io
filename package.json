@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx honkit build ./ ./docs",
-    "start": "npx honkit serve ./ ./docs"
+    "build": "npx honkit build",
+    "start": "npx honkit serve"
   },
   "repository": {
     "type": "git",
