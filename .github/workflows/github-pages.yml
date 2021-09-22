@@ -18,14 +18,14 @@ jobs:
 
     - name: split
       run: |
-        echo "docs.idea-trpg.com" >  docs/CNAME.text
-        cd docs
-        rename CNAME.text CNAME CNAME.text
         python split.py test
     - name: Install dependencies
       run: yarn --frozen-lockfile
     - name: Build Honkit
       run: yarn build
+    - name: cname
+      run: |
+        echo "docs.idea-trpg.com" >  docs/CNAME
     - name: Push to gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
