@@ -9,5 +9,3 @@ with open(path) as f:
 for i in range(len(arr)):
   with open('./CHAPTER-{}.md'.format(i+2), mode='w') as f:
     f.write("  \n".join(arr[i].split('\n')))
-  with open('./CHAPTER-{}.md'.format(i+2)) as f:
-    print(f.read())
