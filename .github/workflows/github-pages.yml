@@ -23,7 +23,6 @@ jobs:
       run: yarn --frozen-lockfile
     - name: Build Honkit
       run: |
-        yarn start
         yarn build
     - name: cname
       run: |
