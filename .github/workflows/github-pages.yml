@@ -18,7 +18,7 @@ jobs:
 
     - name: split
       run: |
-        python split.py test
+        python split.py test.txt
     - name: Install dependencies
       run: yarn --frozen-lockfile
     - name: Build Honkit
