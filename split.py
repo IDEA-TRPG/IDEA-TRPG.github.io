@@ -4,7 +4,7 @@ path = sys.argv[1]
 arr = []
 with open(path) as f:
   s = f.read()
-  arr = s.split("======\n")
+  arr = s.split("======")
 
 print(len(arr))
 for i in range(len(arr)):
