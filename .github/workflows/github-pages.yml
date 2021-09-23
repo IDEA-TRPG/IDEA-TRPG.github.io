@@ -19,6 +19,7 @@ jobs:
     - name: split
       run: |
         python split.py test.txt
+        dir
     - name: Commit files
       run: |
           raise(){
