@@ -4,7 +4,6 @@
     "description": "これはIDEA-TRPG世界観説明のページです。",
     "author": "Nomikarl",
     "plugins": [
-      "include-html",
       "honkit-plugin-google-analytics"
     ],
     "pluginsConfig": {

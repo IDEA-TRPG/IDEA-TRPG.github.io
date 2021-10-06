@@ -1,0 +1,41 @@
+name: GitBook PDF
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  GitBook_Pdf:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Setup Node
+      uses: actions/setup-node@v2
+      with:
+        node-version: '12.x'
+
+    - name: split
+      run: |
+        rm book.json
+        python split_li.py worldview.txt
+        git fetch
+        git checkout pdf
+        dir
+    - name: install packages
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y calibre xvfb fonts-ipafont-gothic fonts-ipafont-mincho
+        sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+        yarn global add gitbook-cli@2.2.0
+        gitbook fetch 3.2.3
+    - name: generate pdf
+      run: |
+        # create pdf
+        gitbook pdf ./ ./worldview.pdf
+    - name: Upload math result for job 2
+      uses: actions/upload-artifact@v2
+      with:
+        name: worldview
+        path: ./worldview.pdfp
